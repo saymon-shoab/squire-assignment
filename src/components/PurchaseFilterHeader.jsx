@@ -1,11 +1,8 @@
 /* eslint-disable no-unused-vars */
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
-// import { AiOutlineSearch } from "@react-icon/ai";
-import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
-
+import { FiSearch } from "@react-icons/all-files/fi/FiSearch";
 const PurchaseFilterHeader = () => {
-  const [currentTime, setCurrentTime] = useState(new Date());
   return (
     <div className=" h-[130px] px-[100px] py-[20px] bg-gray-100">
       <div className=" flex gap-5">
@@ -13,12 +10,7 @@ const PurchaseFilterHeader = () => {
           <label htmlFor="dropdown" className="block font-medium p-2 mb-1">
             Parry:
           </label>
-          <select
-            id="dropdown"
-            className="border rounded w-[250px] py-2 px-3"
-            // value={selectedValue}
-            // onChange={handleDropdownChange}
-          >
+          <select id="dropdown" className="border rounded w-[250px] py-2 px-3">
             <option value="option1">All </option>
             <option value="option2">Option 1</option>
             <option value="option3">Option 2</option>
@@ -48,7 +40,7 @@ const PurchaseFilterHeader = () => {
         </div>
         <div className="w-[300px] border rounded-sm flex gap-5">
           <label htmlFor="dropdown" className="block font-medium p-2 mb-1">
-            <FaBeer />
+            <FiSearch className="m-1" />
           </label>
           <input
             type="text"

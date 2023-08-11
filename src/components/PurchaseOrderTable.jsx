@@ -26,7 +26,7 @@ const PurchaseOrderTable = () => {
       "$20",
       "Branch 1",
       "User 1",
-      false,
+      "none",
     ],
     [
       "2",
@@ -38,7 +38,7 @@ const PurchaseOrderTable = () => {
       "$50",
       "Branch 2",
       "User 2",
-      true,
+      "none",
     ],
     // Add more rows here
   ];
