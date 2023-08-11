@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 
-const DummyTable = () => {
+const PurchaseForm = () => {
   const [vendor, setVendor] = useState("");
   const [name, setName] = useState("");
   const [address, setAddress] = useState("");
@@ -12,9 +12,6 @@ const DummyTable = () => {
   const [challanDate, setChallanDate] = useState("");
   const [vehicleInfo, setVehicleInfo] = useState("");
   const [inventoryInfo, setInventoryInfo] = useState("");
-  const [dropdown1Value, setDropdown1Value] = useState("");
-  const [dropdown2Value, setDropdown2Value] = useState("");
-  const [normalInputValue, setNormalInputValue] = useState("");
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
@@ -167,4 +164,4 @@ const DummyTable = () => {
   );
 };
 
-export default DummyTable;
+export default PurchaseForm;

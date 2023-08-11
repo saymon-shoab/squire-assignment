@@ -1,7 +1,4 @@
-// eslint-disable-next-line no-unused-vars
-import React from "react";
-
-const TableHome = () => {
+const ProductTable = () => {
   const tableHeader = [
     "Sr",
     "Product",
@@ -99,4 +96,4 @@ const TableHome = () => {
   );
 };
 
-export default TableHome;
+export default ProductTable;
