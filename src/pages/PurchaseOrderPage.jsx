@@ -4,11 +4,11 @@ import PurchaseOrderTable from "../components/PurchaseOrderTable";
 
 const PurchaseOrderPage = () => {
   return (
-    <>
+    <div className="h-screen">
       <PurchaceTitle />
       <PurchaseFilterHeader />
       <PurchaseOrderTable />
-    </>
+    </div>
   );
 };
 
