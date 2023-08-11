@@ -66,16 +66,15 @@ const PurchaseFilterHeader = () => {
             <option value="option3">Option 2</option>
           </select>
         </div>
-        <div className="w-[362px] border rounded-sm flex gap-5">
+        <div className="w-[360px] border rounded-sm flex gap-5">
           <label htmlFor="dropdown" className="block font-medium p-2 mb-1">
-            Order No:
+            Branch:
           </label>
-          <input
-            type="text"
-            id="normalInput"
-            className="border rounded w-[250px] py-2 px-3"
-            placeholder="Enter something..."
-          />
+          <select id="dropdown" className="border rounded w-[250px] py-2 px-3">
+            <option value="option1"> Select Branch </option>
+            <option value="option2">Branch 1</option>
+            <option value="option3">Branch 2</option>
+          </select>
         </div>
         <div className="w-[250px] border rounded-sm flex gap-5">
           <label
